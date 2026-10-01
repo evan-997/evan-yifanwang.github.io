@@ -32,6 +32,23 @@ h1 {
   margin: 4px 0;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 /* ---------- Links ---------- */
 
