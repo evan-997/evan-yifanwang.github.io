@@ -198,4 +198,15 @@ footer {
     margin-bottom: 8px;
   }
 
+  .header-content {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+}
+
 }
